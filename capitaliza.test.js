@@ -1,5 +1,5 @@
 const capitalize = require('./capitalize');
 
-it(() => {
+it('Happy Path capitalize', () => {
     expect(capitalize('example')).toBe('Example');
 })
